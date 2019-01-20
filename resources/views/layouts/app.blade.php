@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    @include('inc.navbar')
     <div class="container mt-3">
 
         @yield('content')
