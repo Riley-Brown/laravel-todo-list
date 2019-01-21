@@ -10,7 +10,7 @@
                 <li class="nav-item {{Request::is('/') ? 'active' : ''}}">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item {{Request::is('/') ? 'active' : ''}}">
+                <li class="nav-item {{Request::is('/todo/create') ? 'active' : ''}}">
                     <a class="nav-link" href="/todo/create">Create Todo</a>
                 </li>
 
