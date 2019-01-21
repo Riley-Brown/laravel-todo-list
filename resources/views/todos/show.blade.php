@@ -13,4 +13,9 @@
 <hr>
 <p>{{$todo->body}}</p>
 
+<br>
+<br>
+
+<a href="/todo/{{$todo->id}}/edit" class="btn btn-light">Edit</a>
+
 @endsection
